@@ -1,0 +1,411 @@
+1057 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Starting CoffeeWorldApplication using Java 18 on LAPTOP-58C1GFRG with PID 9784 (C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld\target\classes started by patin in C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld)
+1067 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц No active profile set, falling back to default profiles: default
+3286 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3413 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 112 ms. Found 4 JPA repository interfaces.
+4096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ebffb44' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4101 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4500 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port(s): 8081 (http)
+4513 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8081"]
+4513 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+4513 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+4635 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+4635 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3498 ms
+5146 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+5224 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+5387 [main] INFO  o.h.annotations.common.Version
+                Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5517 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+6155 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+6193 [main] INFO  org.hibernate.dialect.Dialect
+                Ц HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+7443 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7469 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+8429 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8998 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@224e7aa5, org.springframework.security.web.context.SecurityContextPersistenceFilter@eda7dd3, org.springframework.security.web.header.HeaderWriterFilter@6b60d99c, org.springframework.security.web.authentication.logout.LogoutFilter@542aec6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f451970, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71c69628, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ee126de, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@32675dd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@89ff043, org.springframework.security.web.session.SessionManagementFilter@33997e07, org.springframework.security.web.access.ExceptionTranslationFilter@533a27f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d2f910b]
+9203 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+9932 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+10037 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8081"]
+10089 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+10147 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+10180 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 9.602 seconds (JVM running for 15.397)
+76221 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+76222 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+76225 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 3 ms
+1690683 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m34s145ms459µs300ns).
+1705326 [http-nio-8081-exec-1] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 104 ms
+1706867 [http-nio-8081-exec-5] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: getUsers in UserService, work time: 8 ms
+1739839 [http-nio-8081-exec-9] WARN  o.apache.catalina.connector.Request
+                Ц Creating the temporary upload location [C:\Users\patin\AppData\Local\Temp\tomcat.8081.17378721261870442757\work\Tomcat\localhost\ROOT] as it is required by the servlet [dispatcherServlet]
+1739903 [http-nio-8081-exec-9] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Error: 1062, SQLState: 23000
+2361466 [http-nio-8081-exec-4] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 21 ms
+2361515 [http-nio-8081-exec-5] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 14 ms
+2369324 [http-nio-8081-exec-7] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 10 ms
+2372892 [http-nio-8081-exec-1] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: getUsers in UserService, work time: 36 ms
+2377996 [http-nio-8081-exec-5] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: addUser in UserService, work time: 58 ms
+2378094 [http-nio-8081-exec-8] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: getUsers in UserService, work time: 32 ms
+3397418 [http-nio-8081-exec-2] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 6 ms
+3401310 [http-nio-8081-exec-5] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: getUsers in UserService, work time: 34 ms
+3405065 [http-nio-8081-exec-9] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: getUsers in UserService, work time: 34 ms
+3824727 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Shutting down ExecutorService 'applicationTaskExecutor'
+3824731 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+3824737 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+3824745 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
+1021 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Starting CoffeeWorldApplication using Java 18 on LAPTOP-58C1GFRG with PID 20552 (C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld\target\classes started by patin in C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld)
+1025 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц No active profile set, falling back to default profiles: default
+3071 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3164 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 81 ms. Found 4 JPA repository interfaces.
+3707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7e307087' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4242 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port(s): 8081 (http)
+4259 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8081"]
+4259 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+4260 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+4391 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+4391 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3300 ms
+4903 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+4976 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+5173 [main] INFO  o.h.annotations.common.Version
+                Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5363 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+6028 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+6062 [main] INFO  org.hibernate.dialect.Dialect
+                Ц HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+7802 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7835 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+9014 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9821 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74ed3be4, org.springframework.security.web.context.SecurityContextPersistenceFilter@439d649c, org.springframework.security.web.header.HeaderWriterFilter@144792d5, org.springframework.security.web.authentication.logout.LogoutFilter@1e487d57, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7af7c9aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55a2f08b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a08d301, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3ec52163, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48224381, org.springframework.security.web.session.SessionManagementFilter@47cf922d, org.springframework.security.web.access.ExceptionTranslationFilter@1718de70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a45ff31]
+10128 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+10833 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+11011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+11049 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+11066 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 10.53 seconds (JVM running for 12.022)
+11110 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Shutting down ExecutorService 'applicationTaskExecutor'
+11117 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+11122 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+11136 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
+857  [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Starting CoffeeWorldApplication using Java 18 on LAPTOP-58C1GFRG with PID 13896 (C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld\target\classes started by patin in C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld)
+859  [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц No active profile set, falling back to default profiles: default
+3044 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3141 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 87 ms. Found 4 JPA repository interfaces.
+3765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@d08edc5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3770 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4143 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port(s): 8081 (http)
+4153 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8081"]
+4153 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+4154 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+4264 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+4264 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 3338 ms
+4731 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+4766 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+4915 [main] INFO  o.h.annotations.common.Version
+                Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5219 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+6131 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+6176 [main] INFO  org.hibernate.dialect.Dialect
+                Ц HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+7450 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7461 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+8258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8755 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@598ff2b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f919230, org.springframework.security.web.header.HeaderWriterFilter@535b4dbf, org.springframework.security.web.authentication.logout.LogoutFilter@71c69628, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@267e0ca0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21251e43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e487d57, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3f3a529f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1002f859, org.springframework.security.web.session.SessionManagementFilter@c7cbc2d, org.springframework.security.web.access.ExceptionTranslationFilter@5f1a3c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46aea9f7]
+8903 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+9542 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+9617 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8081"]
+9644 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+9662 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+9675 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 9.309 seconds (JVM running for 10.329)
+10355 [RMI TCP Connection(3)-172.30.160.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+10356 [RMI TCP Connection(3)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+10360 [RMI TCP Connection(3)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 4 ms
+25384 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Shutting down ExecutorService 'applicationTaskExecutor'
+25395 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+25401 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+25425 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
+1073 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Starting CoffeeWorldApplication using Java 18 on LAPTOP-58C1GFRG with PID 20972 (C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld\target\classes started by patin in C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld)
+1077 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц No active profile set, falling back to default profiles: default
+3577 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3881 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 279 ms. Found 4 JPA repository interfaces.
+4461 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1220ef43' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4469 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+5339 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port(s): 8081 (http)
+5351 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8081"]
+5351 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+5352 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+5505 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+5505 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 4349 ms
+6020 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+6094 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+6305 [main] INFO  o.h.annotations.common.Version
+                Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+6510 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+7207 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+7259 [main] INFO  org.hibernate.dialect.Dialect
+                Ц HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+8594 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8613 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+10140 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10674 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2318651f, org.springframework.security.web.context.SecurityContextPersistenceFilter@439d649c, org.springframework.security.web.header.HeaderWriterFilter@144792d5, org.springframework.security.web.authentication.logout.LogoutFilter@1e487d57, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7af7c9aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55a2f08b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a08d301, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3ec52163, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f04fb07, org.springframework.security.web.session.SessionManagementFilter@47cf922d, org.springframework.security.web.access.ExceptionTranslationFilter@1718de70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a45ff31]
+10866 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+11608 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+11706 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8081"]
+11743 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+11777 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+11792 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 11.246 seconds (JVM running for 12.466)
+12374 [RMI TCP Connection(2)-172.30.160.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+12374 [RMI TCP Connection(2)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+12377 [RMI TCP Connection(2)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 3 ms
+24463 [http-nio-8081-exec-10] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 311 ms
+3849 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3859 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+4454 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4764 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b332eda, org.springframework.security.web.context.SecurityContextPersistenceFilter@508abc74, org.springframework.security.web.header.HeaderWriterFilter@51d76ad3, org.springframework.security.web.authentication.logout.LogoutFilter@7d3faf1d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27adb90f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@386ea60f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20fdaf3e, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3b9c05f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bf70600, org.springframework.security.web.session.SessionManagementFilter@1bca9b64, org.springframework.security.web.access.ExceptionTranslationFilter@5608e254, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@402d76c7]
+4889 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+5336 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+5386 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8081"]
+5420 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+5442 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+5452 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 5.136 seconds (JVM running for 6.898)
+5675 [RMI TCP Connection(4)-172.30.160.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+5676 [RMI TCP Connection(4)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+5678 [RMI TCP Connection(4)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 2 ms
+21318 [http-nio-8081-exec-1] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: send in EmailService, work time: 896 ms
+21402 [http-nio-8081-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Error: 1062, SQLState: 23000
+                Ц Method: send in EmailService, work time: 757 ms
+31524 [http-nio-8081-exec-10] WARN  o.h.e.jdbc.spi.SqlExceptionHelper
+                Ц SQL Error: 1062, SQLState: 23000
+126142 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Shutting down ExecutorService 'applicationTaskExecutor'
+126146 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+126148 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+126159 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
+543  [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Starting CoffeeWorldApplication using Java 18 on LAPTOP-58C1GFRG with PID 16552 (C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld\target\classes started by patin in C:\Users\patin\OneDrive\–абочий стол\–азработка баз данных\CoffeeWorld)
+545  [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц No active profile set, falling back to default profiles: default
+1546 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1596 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+1918 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@724aefc3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1924 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                Ц Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2133 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port(s): 8081 (http)
+2139 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8081"]
+2139 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+2140 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/9.0.44]
+2203 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+2203 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 1585 ms
+2432 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2465 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 5.4.29.Final
+2541 [main] INFO  o.h.annotations.common.Version
+                Ц HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2623 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+2868 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+2882 [main] INFO  org.hibernate.dialect.Dialect
+                Ц HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+3405 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3413 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3828 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4071 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                Ц Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34d26a68, org.springframework.security.web.context.SecurityContextPersistenceFilter@248ba4fc, org.springframework.security.web.header.HeaderWriterFilter@29ddaa8e, org.springframework.security.web.authentication.logout.LogoutFilter@99f75e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7674f9d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@755033c5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@571903ff, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@22a2e581, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fef2768, org.springframework.security.web.session.SessionManagementFilter@217009bd, org.springframework.security.web.access.ExceptionTranslationFilter@68ea1eb5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cd65042]
+4182 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Initializing ExecutorService 'applicationTaskExecutor'
+4585 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/logs'
+4630 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8081"]
+4646 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port(s): 8081 (http) with context path ''
+4661 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                Ц No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+4669 [main] INFO  c.p.C.CoffeeWorldApplication
+                Ц Started CoffeeWorldApplication in 4.408 seconds (JVM running for 5.118)
+4832 [RMI TCP Connection(3)-172.30.160.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+4832 [RMI TCP Connection(3)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+4833 [RMI TCP Connection(3)-172.30.160.1] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 1 ms
+24436 [http-nio-8081-exec-6] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: send in EmailService, work time: 960 ms
+56359 [http-nio-8081-exec-8] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: activateUser in UserService, work time: 27 ms
+61207 [http-nio-8081-exec-7] INFO  c.p.CoffeeWorld.aspect.Aspect
+                Ц Method: loadUserByUsername in UserService, work time: 16 ms
+216279 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                Ц Shutting down ExecutorService 'applicationTaskExecutor'
+216281 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+216284 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+216288 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
